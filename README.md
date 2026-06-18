@@ -2,6 +2,12 @@
 
 把自架 (self-hosted) Dify 後台「App Logs」頁面看到的對話紀錄,匯出成 CSV,方便離線分析、保存或交給其他系統處理。
 
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
 ## 為什麼不直接用官方 API?
 
 這個工具最後選擇直接連資料庫,是因為前面兩條路都走不通:
