@@ -26,7 +26,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   pip install psycopg2-binary
   ```
 - 能連線到 Dify 用的 PostgreSQL(預設 docker-compose 設定不會對外開放,需要手動開啟,見下方說明)
-- Dify 資料庫帳密(`.env` 裡的 `DB_USERNAME` / `DB_PASSWORD`;如果沒特別設定過,預設通常是 `postgres` / `difyai123456`)
+- Dify 資料庫帳密(`.env` 裡的 `DB_USERNAME` / `DB_PASSWORD`;)
 - 要匯出的 App 的 `app_id`(在後台網址 `/app/<APP_ID>/...` 可以看到)
 
 ## 開放資料庫連接埠
@@ -55,7 +55,7 @@ DB_HOST = "localhost"
 DB_PORT = 5432
 DB_NAME = "dify"
 DB_USER = "postgres"
-DB_PASSWORD = "difyai123456"
+DB_PASSWORD = "你的密碼"
 APP_ID = "你的 app_id"
 ```
 
